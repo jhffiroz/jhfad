@@ -1,0 +1,6 @@
+{
+  "name": "JHF Ad Reward Platform",
+  "description": "A high-fidelity secure web application for watching ads, upgrading memberships, and earning points with automated KYC validation.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

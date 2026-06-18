@@ -1,0 +1,112 @@
+{
+  "users": [
+    {
+      "id": "user_admin",
+      "email": "admin@adreward.com",
+      "phone": "+8801700000001",
+      "name": "Platform Registrar",
+      "membershipStatus": "elite",
+      "kycStatus": "verified",
+      "walletBalance": 9999,
+      "todayEarnings": 0,
+      "currentMonthEarnings": 0,
+      "totalLifetimeEarnings": 0,
+      "dailyAdsWatched": 0,
+      "totalAdsWatched": 0,
+      "createdAt": "2026-06-17T04:27:58.954Z"
+    },
+    {
+      "id": "test_user_new",
+      "email": "user@adreward.com",
+      "phone": "+8801811223344",
+      "name": "Jahid Firoz",
+      "idNumber": "19940123456789",
+      "dob": "1994-06-15",
+      "membershipStatus": "standard",
+      "kycStatus": "verified",
+      "walletBalance": 1250,
+      "todayEarnings": 45,
+      "currentMonthEarnings": 320,
+      "totalLifetimeEarnings": 1850,
+      "dailyAdsWatched": 3,
+      "totalAdsWatched": 45,
+      "createdAt": "2026-06-17T04:27:58.954Z"
+    }
+  ],
+  "ads": [
+    {
+      "id": "ad_1",
+      "title": "bKash Digital Savings Plan",
+      "adType": "video",
+      "mediaUrl": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=800&q=80",
+      "duration": 30,
+      "rewardAmount": 15.5,
+      "enabled": true,
+      "viewsCount": 1420,
+      "category": "Fintech"
+    },
+    {
+      "id": "ad_2",
+      "title": "Nagad Lakhpati Mega Campaign",
+      "adType": "interactive",
+      "mediaUrl": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=800&q=80",
+      "duration": 30,
+      "rewardAmount": 22,
+      "enabled": true,
+      "viewsCount": 980,
+      "category": "Fintech"
+    },
+    {
+      "id": "ad_3",
+      "title": "Grameenphone High-Speed 5G Network",
+      "adType": "image",
+      "mediaUrl": "https://images.unsplash.com/photo-1562408590-e32931084e23?auto=format&fit=crop&w=800&q=80",
+      "duration": 30,
+      "rewardAmount": 12,
+      "enabled": true,
+      "viewsCount": 2310,
+      "category": "Telecom"
+    },
+    {
+      "id": "ad_4",
+      "title": "Pran Mango Juice - Fresh & Pure",
+      "adType": "video",
+      "mediaUrl": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=800&q=80",
+      "duration": 30,
+      "rewardAmount": 10,
+      "enabled": true,
+      "viewsCount": 1150,
+      "category": "FMCG"
+    },
+    {
+      "id": "ad_5",
+      "title": "Daraz 11.11 Mega Shopping Festival",
+      "adType": "interactive",
+      "mediaUrl": "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&w=800&q=80",
+      "duration": 30,
+      "rewardAmount": 25,
+      "enabled": true,
+      "viewsCount": 3102,
+      "category": "E-Commerce"
+    }
+  ],
+  "upgrades": [],
+  "withdrawals": [],
+  "logs": [],
+  "auditLogs": [
+    {
+      "id": "log_init",
+      "timestamp": "2026-06-17T04:27:58.954Z",
+      "category": "system",
+      "action": "SYSTEM_START",
+      "details": "JHF Ad Reward platform database bootstrapped."
+    }
+  ],
+  "stats": {
+    "dailyActiveUsers": 147,
+    "totalAdViews": 8962,
+    "totalRevenue": 24500,
+    "totalPayouts": 12400,
+    "fraudCount": 2
+  }
+}
